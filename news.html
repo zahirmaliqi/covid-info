@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <script src="https://kit.fontawesome.com/4a316ef719.js" crossorigin="anonymous"></script>
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/news.css" />
+    <link rel="stylesheet" href="./css/navstyle.css" />
+
+  </head>
+  <body>
+    <nav>
+     <div class="nav-center">
+        <h4><a href="home.html"><i class="fa-solid fa-viruses"></i></a></h4>
+       <ul class="nav-links">
+         <li>
+          <a href="home.html"> Home </a>
+         </li>
+         <li>
+          <a href="news.html"> News </a>
+         </li>
+         <li>
+          <a href="home.html?#faq-questions-nav"> FAQ </a>
+         </li>
+       </ul>
+     </div>
+   </nav>
+   <header class="hero">
+     <div class="banner">
+       <h1> The future with COVID-19 </h1>
+       <button class="btn modal-btn"> Read more</button>
+     </div>
+   </header>
+
+   <div class="modal-overlay">
+     <div class="modal-container">
+       <h3 class="modal-tittle">Here Are Signs to Look Out For.</h3>
+       <button class="close-btn">
+         <i class="fas fa-times"></i>
+       </button>
+       <img src="./photos/covid1.jpg" id="modal-img">
+       <p>Omicron cases, hospitalizations and deaths have been substantially declining across the United States for more than a month. In response, governors and mayors are rolling back restrictions like mask mandates and vaccine passports. Many wonder whether this period of low cases and decreasing demands on hospitals is a turning point in the pandemic or is simply a lull before a new variant causes another dangerous surge.</p>
+     </div>
+   </div>
+    <!-- javascript -->
+         <script src="./javascript/news.js"></script>
+  </body>
+</html>
